@@ -1,0 +1,36 @@
+
+
+.primer {
+    line-height: 3cm;
+    color: blueviolet;
+}
+.parrafo{ 
+    line-height: 2.5;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#lista {
+    list-style: none;
+    font-size: .6;
+    color: aqua;
+    line-height: 1.4;
+}
+#logo{
+    width: 50px;
+}
+nav{
+    background-color: steelblue;
+    padding: 1rem 3rem;
+}
+
+body{ 
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    gap: 1rem;
+}
+header{
+    gr
+}
+
+h1 {
+    
+}
