@@ -1,0 +1,31 @@
+
+
+
+#container{
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    grid-template-rows: auto 1fr auto;
+    height: 100vh;
+    gap: 1.5rem;
+    grid-template-areas: 
+    "cabeza cabeza lado"
+    "principal principal lado"
+    "pie pie pie"
+    ;
+}
+header {
+    grid-area: cabeza;
+    background-color: #2bb2c6;
+}
+main {
+    grid-area: principal;
+    background-color: #e67eb5;
+}
+aside {
+    grid-area: lado;
+    background-color: #23dcc6;
+}
+footer{
+    grid-area: pie;
+    background-color: #880c3e;
+}
