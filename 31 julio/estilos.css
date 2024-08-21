@@ -1,4 +1,10 @@
 
+article{
+    border-bottom: 10px hsla(180, 82%, 43%, 0.651);
+    padding: 3rem 8rem;
+    margin: 2rem;
+
+}
 
 .primer {
     line-height: 3cm;
@@ -7,12 +13,27 @@
 .parrafo{ 
     line-height: 2.5;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: brown;
 }
 #lista {
     list-style: none;
     font-size: .6;
     color: aqua;
     line-height: 1.4;
+
+/*reticula */
+
+    body { 
+        display: grid;
+        grid-template-columns: 2fr 2fr 1fr;
+        gap: 2rem;
+    }
+
+    header{
+        grid-column-start: 1;
+        grid-column-end: 2;
+    }
+
 }
 #logo{
     width: 50px;
@@ -22,15 +43,5 @@ nav{
     padding: 1rem 3rem;
 }
 
-body{ 
-    display: grid;
-    grid-template-columns: 2fr 2fr 1fr;
-    gap: 1rem;
-}
-header{
-    gr
-}
 
-h1 {
-    
-}
+
